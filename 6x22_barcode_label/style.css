@@ -1,0 +1,22 @@
+@page {
+    width: 22mm;
+    height: 6mm;
+    padding: 0.5mm;
+    /* border for testing only */
+    border: 1px gray solid;
+}
+img {
+    height: 5.4mm;
+    display: inline-block;
+    vertical-align: middle;
+    image-rendering: pixelated;
+}
+.label {
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 7px;
+}
+span.timestamp {
+    font-size: 25%;
+}
